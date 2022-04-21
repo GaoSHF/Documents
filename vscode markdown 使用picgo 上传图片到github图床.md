@@ -2,11 +2,16 @@
 
 1. 在vecode安装picgo插件，点击picgo
 
-   ![picgoset](https://raw.githubusercontent.com/GaoSHF/7011/master/blogs/picgoset.png)
+   ![picgo_set](https://cdn.jsdelivr.net/gh/GaoSHF/7011/blogs/picgo_set.png)
 
 2. 按照下图进行设置
 
-   ![11115903](https://raw.githubusercontent.com/GaoSHF/7011/master/blogs/11115903.png)  
+   ![picgo_jsdelivr_set](https://cdn.jsdelivr.net/gh/GaoSHF/7011/blogs/picgo_jsdelivr_set.png)
+
+
+按照上述路径进行配置后，上传的图片在github下的对应路径如下图，可按照下图进行理解进行配置：
+
+![file_view](https://cdn.jsdelivr.net/gh/GaoSHF/7011/blogs/file_view.png)
 
 2.1 current设置为GitHub
 
@@ -33,6 +38,5 @@ cdn加速的优点是国内访问速度比较快
 
 2.5 Repo是我们的仓库，比如我的是GaoSHF/7011
 
-设置完成之后我们可以在一个markdown文件里使用ctrl+alt+E打开资源管理器选择图片,上传成功后就会自动粘贴在你的markdown文件中。
-
+设置完成之后我们可以在一个markdown文件里使用ctrl+alt+E打开资源管理器选择图片,crtl+alt+U打开剪切板上的图片，上传成功后就会自动粘贴在你的markdown文件中。
 

@@ -107,7 +107,7 @@ ROSERROR : CMake Error at /opt/ros/melodic/share/cv_bridge/cmake/cv_bridgeConfig
 
 这里：/opt/ros/melodic/share/cv_bridge/cv_bridgeConfig.cmake
 
-![8f73a1a017c1b7d681f54c67105424f9.png](/home/gao/Documents/Markdown/assets/8f73a1a017c1b7d681f54c67105424f9.png)
+![8f73a1a017c1b7d681f54c67105424f9.png](https://cdn.jsdelivr.net/gh/GaoSHF/7011/blogs/202205/8f73a1a017c1b7d681f54c67105424f9.png)
 
 PS：原因是：使用`sudo apt install ros-melodic-desktop-full`安装的ros，那么会默认安装`opencv`版本到`/usr/include`,`/usr/lib`,`/usr/share`三个目录。但是如果我们从opencv官网源码编译安装的（以最常用的opencv3.2为例）opencv会默认安装到`usr/local`下对应的三个子目录。
 
